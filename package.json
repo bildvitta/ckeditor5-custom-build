@@ -41,5 +41,9 @@
     "build": "webpack --mode production",
     "dev": "webpack watch --mode development"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {}
 }
